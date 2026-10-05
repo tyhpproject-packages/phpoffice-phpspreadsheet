@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/phpoffice-phpspreadsheet",
+    "description": "Tyhp type definitions for phpoffice/phpspreadsheet 5.9.0.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "5.9.0",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/phpoffice-phpspreadsheet-impl": "~5.9.0.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/phpoffice-phpspreadsheet-impl"
+        }
+    }
+}
